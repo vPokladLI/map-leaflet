@@ -1,0 +1,78 @@
+.share-window {
+  position: fixed;
+  bottom: 310px;
+  z-index: 9999;
+  right: 0;
+  display: block !important;
+  transform: translateY(550px);
+  transition: all 300ms ease-in-out;
+  &.active {
+    transform: translateY(0px);
+  }
+  @media (max-width: 767px) {
+    bottom: 0;
+
+    width: 100%;
+  }
+}
+
+.share-container {
+  position: relative;
+  display: flex;
+  @media (min-width: 768px) {
+    flex-direction: column;
+  }
+  a {
+    display: flex;
+    white-space: nowrap;
+    min-width: 48px;
+    min-height: 48px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #70cbf4;
+    text-decoration: none;
+    transition: all 300ms linear;
+    &:hover {
+      @media (min-width: 1200px) {
+        transform: scale(1.1);
+      }
+    }
+    @media (max-width: 768px) {
+      flex-grow: 1;
+    }
+    svg {
+      fill: #fff;
+      height: 24px;
+      margin-left: 0;
+      /* vertical-align: top; */
+      width: 24px;
+      display: block;
+    }
+  }
+  .facebook {
+    background: #3b5998;
+  }
+  .twitter {
+    background-color: #55acee;
+  }
+  .whatsapp {
+    background-color: #1bd741;
+  }
+  .linkedin {
+    background-color: #0077b5;
+  }
+  .xing {
+    background-color: #005a5f;
+  }
+}
+
+.feedback {
+  position: fixed;
+  z-index: 2000000000;
+  bottom: 75px;
+  right: -1px;
+  width: 40px;
+  height: 220px;
+  background-color: red;
+}

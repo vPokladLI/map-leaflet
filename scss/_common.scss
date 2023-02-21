@@ -1,0 +1,109 @@
+@font-face {
+  font-family: tuitype-light;
+  src: url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-regular.woff2")
+      format("woff2"),
+    url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: tuitype-light;
+  src: url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-bold.woff2")
+      format("woff2"),
+    url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: tuitype-light;
+  src: url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-italic.woff2")
+      format("woff2"),
+    url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-italic.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+  /* outline: solid 1px tomato; */
+}
+body {
+  font-family: tuitype-light, Helvetica, sans-serif;
+  letter-spacing: 0px;
+  font-size: 18px;
+  line-height: 1.55;
+  color: $text-color;
+  font-weight: 400;
+  min-width: 320px;
+  @media (max-width: 767px) {
+    margin-top: 47px;
+    margin-bottom: 48px;
+  }
+}
+
+body.is-open {
+  overflow: hidden;
+}
+
+image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.icon {
+  fill: currentColor;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}

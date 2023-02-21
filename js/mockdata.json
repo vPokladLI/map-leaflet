@@ -1,0 +1,187 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "id":1,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               31.18091,
+               37.19197
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Köprüçay Fluss (Köprülü Canyon)",
+            "description":"Im türkischen Hotspot für Wildwasser-Rafting sind ganzjährig die vielfältigsten Wildwasser-Aktivitäten möglich.",
+            "category":"outdoor",
+            "subcategory":[
+               
+            ],
+            "region":"region_3"
+         }
+      },
+      {
+         "id":2,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               28.63274808,
+               36.99748454
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Toparlar Wasserfall",
+            "description":"Springt bei eurer Canyoning-Tour nördlich vom Köyceğiz See in das eiskalte und klare Wasser des Toparlar Wasserfalls.",
+            "activity":"activity-2",
+            "terrain":"terrain-3",
+            "region":"region_1"
+         }
+      },
+      {
+         "id":3,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               28.98993482,
+               36.66479181
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Golf von Göcek/Fethiye",
+            "description":"Entdeckt zwischen Göcek und Fethiye ein stark geschütztes Seegebiet mit vielen einzigartigen Buchten, Inseln und türkisfarbenem Wasser. Windtechnisch geht es in diesem Gebiet etwas ruhiger zu.",
+            "activity":"activity-3",
+            "terrain":"terrain-3",
+            "region":"region_1"
+         }
+      },
+      {
+         "id":4,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               27.42313854,
+               37.03318777
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Bodrum",
+            "description":"Bestaunt in Bodrum farbenfrohe Riffe, geschäftige Fischschwärme und geht in einem der drei Wracks auf Entdeckungsreise. Unweit von Bodrum finden sich zudem mit dem „Big Reef“ und dem „Small Reef“ die zwei besten Tauchplätze der Stadt.",
+            "activity":"activity-4",
+            "terrain":"terrain-3",
+            "region":"region_1"
+         }
+      },
+      {
+         "id":5,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               28.32963165,
+               37.03852238
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Akyaka",
+            "description":"In der Bucht des kleinen Dorfes Akyaka könnt ihr von Mai bis Oktober Kiten und Windsurfen. Freut euch auf beständige Winde und eine entspannte Atmosphäre.",
+            "activity":"activity-5",
+            "terrain":"terrain-3",
+            "region":"region_1"
+         }
+      },
+      {
+         "id":6,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.86142012,
+               38.65332019
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Göreme, Kappadokien",
+            "description":"Göreme bildet den idealen Startpunkt für Wanderungen in die Täler Kappadokiens. Das einzigartige Zusammenspiel von Natur und historischen Bauten lässt sich unter anderem im Rose Valley und Pigeon Valley beobachten.",
+            "activity":"activity-6",
+            "terrain":"terrain-1",
+            "region":"region_7"
+         }
+      },
+      {
+         "id":7,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               41.16084026,
+               40.83644425
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Kaçkar Dağı",
+            "description":"Auf dem höchsten Berg des Pontischen Gebirges werden Wanderer in 3931 Metern Höhe mit einem Blick auf die naturbelassene Wildnis rund um den Kaçkar Dağı belohnt.",
+            "activity":"activity-7",
+            "terrain":"terrain-1",
+            "region":"region_5"
+         }
+      },
+      {
+         "id":8,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.90125986,
+               38.58866217
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Mustafapaşa, Kappadokien",
+            "description":"Von Mustafapasha aus führen Mountainbike-Routen durch die zahlreichen Täler Kappadokiens. Fahrt vorbei an Felsdenkmälern, historischen Städten, Weinreben und Feenkaminen.",
+            "activity":"activity-8",
+            "terrain":"terrain-1",
+            "region":"region_7"
+         }
+      },
+      {
+         "id":9,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.48346227,
+               36.87409188
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Geyikbayiri",
+            "description":"Insbesondere im Winter können sich Kletterer in Geyikbairi über beste Kletterbedingungen an Felswänden verschiedenster schwierigkeitsgrade freuen. Eine gute Infrastruktur und Camp-Verfügbarkeit machen den Standort zusätzlich attraktiv.",
+            "activity":"activity-9",
+            "terrain":"terrain-1",
+            "region":"region_3"
+         }
+      },
+      {
+         "id":10,
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               29.17157121,
+               36.53757242
+            ]
+         },
+         "type":"Feature",
+         "properties":{
+            "name":"Babadağ (Ölüdeniz)",
+            "description":"Gleitschirmflüge vom 1.980 Meter hohen Berg Babadag in Ölüdeniz ermöglichen mutigen Fliegern allen Alters unglaubliche Blicke auf Felsformationen und blaue Lagunen.",
+            "activity":"activity-10",
+            "terrain":"terrain-2",
+            "region":"region_1"
+         }
+      }
+   ]
+}

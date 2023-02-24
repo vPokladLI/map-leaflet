@@ -7,7 +7,7 @@ const OutdoorGuide = {
   },
   shouldShowAll: true,
   filterTitle: document.querySelectorAll(".pa__filter-title"),
-  showMoreBtn: document.querySelectorAll(".pa__filter-more"),
+  showMoreBtn: document.querySelector(".pa__filter-more"),
   showAllBtn: document.querySelector(".pa__show-all"),
 
   init() {
@@ -18,9 +18,8 @@ const OutdoorGuide = {
     this.filterTitle.forEach((button) => {
       button.addEventListener("click", OutdoorGuide.toggleFilterSection);
     });
-    this.showMoreBtn.forEach((button) => {
-      button.addEventListener("click", OutdoorGuide.showMoreFilter);
-    });
+    this.showMoreBtn.addEventListener("click", OutdoorGuide.showMoreFilter);
+
     document
       .querySelectorAll(".pa__inputs input[type='radio']")
       .forEach((input) => {
@@ -39,7 +38,20 @@ const OutdoorGuide = {
     let activityMap = L.map("pa__map").setView([39.236508, 35.062866], 5);
 
     activityMap.attributionControl.setPrefix(false);
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    // L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    // L.tileLayer("http://tile.stamen.com/terrain/{z}/{x}/{y}.png",
+    // const mapLink = '<a href="http://www.esri.com/">Esri</a>';
+    // const wholink =
+    //   "i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community";
+    // L.tileLayer(
+    //   "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    //   {
+    //     attribution: "&copy; " + mapLink + ", " + wholink,
+    //     // maxZoom: 18,
+    //   }
+    // ).addTo(activityMap);
+
+    L.tileLayer("http://tile.stamen.com/terrain/{z}/{x}/{y}.png", {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(activityMap);

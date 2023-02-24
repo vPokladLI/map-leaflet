@@ -51,10 +51,13 @@ const OutdoorGuide = {
     //   }
     // ).addTo(activityMap);
 
-    L.tileLayer("http://tile.stamen.com/terrain/{z}/{x}/{y}.png", {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(activityMap);
+    L.tileLayer(
+      "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+      {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }
+    ).addTo(activityMap);
 
     const clusterGroup = L.markerClusterGroup({
       showCoverageOnHover: false,
